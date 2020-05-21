@@ -1,0 +1,39 @@
+/*******************************
+         Site Overrides
+*******************************
+
+//* Dark */
+.ui.inverted.menu .dark.active.item,
+.ui.inverted.dark.menu {
+  background-color: @dark;
+}
+.ui.inverted.dark.menu .item:before {
+  background-color: @invertedColoredDividerBackground;
+}
+.ui.inverted.dark.menu .active.item {
+  background-color: @invertedColoredActiveBackground !important;
+}
+
+.ui.menu.dark.active.item,
+.ui.dark.menu.active.item {
+  border-color: @dark !important;
+  color: @dark !important;
+}
+
+//* Light */
+.ui.inverted.menu .light.active.item,
+.ui.inverted.light.menu {
+  background-color: @light;
+}
+.ui.inverted.light.menu .item:before {
+  background-color: @dark;
+}
+.ui.inverted.light.menu .active.item {
+  background-color: @dark !important;
+}
+
+.ui.menu .light.active.item,
+.ui.light.menu .active.item {
+  border-color: @light !important;
+  color: @light !important;
+}
